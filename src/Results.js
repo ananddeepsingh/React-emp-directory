@@ -15,14 +15,23 @@ export default class Results extends React.Component {
     }
 
     render() {
-        return (
-            <div id="result" >
-                <h2>Subordinates of "{this.props.data.searchUser}"</h2>
-                <ol start="1" id='subOrd'>
-                    {this.renderSubOrdinates()}
-                </ol>
+        let subMod = this.props.data.data.length;
+        if (subMod > 1) {
+            return (
+                <div id="result" >
+                    <React.Fragment >
+                        <h2>Subordinates of "{this.props.data.searchUser}"</h2>
+                        <ol start="1" id='subOrd'>
+                            {this.renderSubOrdinates()}
+                        </ol>
+                    </React.Fragment>
 
-            </div>
-        )
+                </div>
+            )
+        }else{
+            return(
+                <div id="result"> He has no Subordinates </div>
+            )
+        }
     }
 }
