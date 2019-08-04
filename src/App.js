@@ -104,7 +104,6 @@ class App extends Component {
           <input type="submit" className="searchBtn" value="Search" />
         </form>
 
-        {!this.state.showResult ? "Loading ... " : null}
         {this.state.showResult ? <Results data={this.state} /> : null}
 
         <div className="error">{this.state.errorOccured ? 'No Record(s) Found' : null} </div>
