@@ -85,6 +85,8 @@ class App extends Component {
       }).catch(function (error) {
         this.setState({
           searchUser: '',
+          data: [],
+          showResult: false,
           errorOccured: true
         })
         console.log('There has been a problem with your fetch operation: ', error.message);
@@ -102,6 +104,7 @@ class App extends Component {
           <input type="submit" className="searchBtn" value="Search" />
         </form>
 
+        {!this.state.showResult ? "Loading ... " : null}
         {this.state.showResult ? <Results data={this.state} /> : null}
 
         <div className="error">{this.state.errorOccured ? 'No Record(s) Found' : null} </div>
