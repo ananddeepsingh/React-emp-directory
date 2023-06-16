@@ -7,7 +7,7 @@ class App extends Component {
   constructor(props) {
     super(props);
 
-    this.URL = 'http://api.additivasia.io/api/v1/assignment/employees/';
+    this.URL = 'https://jsonplaceholder.typicode.com/users';
 
     this.state = {
       searchUser: '',
