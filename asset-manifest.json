@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React-emp-directory/static/css/main.4a0f275e.css",
+    "main.js": "/React-emp-directory/static/js/main.025a7d08.js",
+    "index.html": "/React-emp-directory/index.html",
+    "main.4a0f275e.css.map": "/React-emp-directory/static/css/main.4a0f275e.css.map",
+    "main.025a7d08.js.map": "/React-emp-directory/static/js/main.025a7d08.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a0f275e.css",
+    "static/js/main.025a7d08.js"
+  ]
+}
