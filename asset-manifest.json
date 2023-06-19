@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/React-emp-directory/static/css/main.4a0f275e.css",
-    "main.js": "/React-emp-directory/static/js/main.025a7d08.js",
+    "main.css": "/React-emp-directory/static/css/main.fde952d0.chunk.css",
+    "main.js": "/React-emp-directory/static/js/main.7ad4300d.chunk.js",
+    "main.js.map": "/React-emp-directory/static/js/main.7ad4300d.chunk.js.map",
+    "runtime~main.js": "/React-emp-directory/static/js/runtime~main.a046fd3c.js",
+    "runtime~main.js.map": "/React-emp-directory/static/js/runtime~main.a046fd3c.js.map",
+    "static/js/2.d6a534e5.chunk.js": "/React-emp-directory/static/js/2.d6a534e5.chunk.js",
+    "static/js/2.d6a534e5.chunk.js.map": "/React-emp-directory/static/js/2.d6a534e5.chunk.js.map",
     "index.html": "/React-emp-directory/index.html",
-    "main.4a0f275e.css.map": "/React-emp-directory/static/css/main.4a0f275e.css.map",
-    "main.025a7d08.js.map": "/React-emp-directory/static/js/main.025a7d08.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.4a0f275e.css",
-    "static/js/main.025a7d08.js"
-  ]
+    "precache-manifest.c65e5aba474b09d3b38cb5ae87b1ecbd.js": "/React-emp-directory/precache-manifest.c65e5aba474b09d3b38cb5ae87b1ecbd.js",
+    "service-worker.js": "/React-emp-directory/service-worker.js",
+    "static/css/main.fde952d0.chunk.css.map": "/React-emp-directory/static/css/main.fde952d0.chunk.css.map"
+  }
 }
