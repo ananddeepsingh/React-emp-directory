@@ -7,9 +7,7 @@ export default class Results extends React.Component {
         let results = [];
 
         if (this.props.data && this.props.data.data[1].hasOwnProperty('direct-subordinates')) {
-            this.props.data.data[1]['direct-subordinates'].map((item, i) => {
-                results.push(<SubOrdinates item={item} key={i} />);
-            })
+            this.props.data.data[1]['direct-subordinates'].map((item, i) => results.push(<SubOrdinates item={item} key={i} />))
         }
         return results;
     }
