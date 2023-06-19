@@ -96,7 +96,7 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <h1>WELCOME TO EMPLOYEE SEARCH PORTAL</h1>
+        <h1>WELCOME TO SEARCH PORTAL</h1>
         <form onSubmit={(e) => { this.handleSubmit(e) }} type="post">
           <label>
             <input type="text" className="search" placeholder="Please Enter Employee Name" ref={(input) => this.input = input} />
